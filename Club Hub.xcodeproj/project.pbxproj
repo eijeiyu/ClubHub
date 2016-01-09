@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A463728A1C30D84A00E4ABAA /* ClubPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46372891C30D84A00E4ABAA /* ClubPageViewController.swift */; };
+		A463728C1C30D97700E4ABAA /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = A463728B1C30D97700E4ABAA /* Club.swift */; };
+		A484D3051C3F42F700B37EF2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A484D3041C3F42F700B37EF2 /* HomeViewController.swift */; };
+		A4BE741B1C24F4B700277776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BE741A1C24F4B700277776 /* AppDelegate.swift */; };
+		A4BE74201C24F4B700277776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4BE741E1C24F4B700277776 /* Main.storyboard */; };
+		A4BE74221C24F4B700277776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4BE74211C24F4B700277776 /* Assets.xcassets */; };
+		A4BE74251C24F4B700277776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4BE74231C24F4B700277776 /* LaunchScreen.storyboard */; };
+		A4BE74301C24F4B700277776 /* Club_HubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BE742F1C24F4B700277776 /* Club_HubTests.swift */; };
+		A4BE743B1C24F4B700277776 /* Club_HubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BE743A1C24F4B700277776 /* Club_HubUITests.swift */; };
+		A4BE744B1C250C5000277776 /* SearchClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BE744A1C250C5000277776 /* SearchClubViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4BE742C1C24F4B700277776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4BE740F1C24F4B600277776 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4BE74161C24F4B700277776;
+			remoteInfo = "Club Hub";
+		};
+		A4BE74371C24F4B700277776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4BE740F1C24F4B600277776 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4BE74161C24F4B700277776;
+			remoteInfo = "Club Hub";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A46372891C30D84A00E4ABAA /* ClubPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClubPageViewController.swift; sourceTree = "<group>"; };
+		A463728B1C30D97700E4ABAA /* Club.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Club.swift; sourceTree = "<group>"; };
+		A484D3041C3F42F700B37EF2 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A4BE74171C24F4B700277776 /* Club Hub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Club Hub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4BE741A1C24F4B700277776 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4BE741F1C24F4B700277776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4BE74211C24F4B700277776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4BE74241C24F4B700277776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4BE74261C24F4B700277776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4BE742B1C24F4B700277776 /* Club HubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Club HubTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4BE742F1C24F4B700277776 /* Club_HubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Club_HubTests.swift; sourceTree = "<group>"; };
+		A4BE74311C24F4B700277776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4BE74361C24F4B700277776 /* Club HubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Club HubUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4BE743A1C24F4B700277776 /* Club_HubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Club_HubUITests.swift; sourceTree = "<group>"; };
+		A4BE743C1C24F4B700277776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4BE744A1C250C5000277776 /* SearchClubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchClubViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4BE74141C24F4B700277776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4BE74281C24F4B700277776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4BE74331C24F4B700277776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4BE740E1C24F4B600277776 = {
+			isa = PBXGroup;
+			children = (
+				A4BE74191C24F4B700277776 /* Club Hub */,
+				A4BE742E1C24F4B700277776 /* Club HubTests */,
+				A4BE74391C24F4B700277776 /* Club HubUITests */,
+				A4BE74181C24F4B700277776 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4BE74181C24F4B700277776 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4BE74171C24F4B700277776 /* Club Hub.app */,
+				A4BE742B1C24F4B700277776 /* Club HubTests.xctest */,
+				A4BE74361C24F4B700277776 /* Club HubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4BE74191C24F4B700277776 /* Club Hub */ = {
+			isa = PBXGroup;
+			children = (
+				A46372891C30D84A00E4ABAA /* ClubPageViewController.swift */,
+				A463728B1C30D97700E4ABAA /* Club.swift */,
+				A484D3041C3F42F700B37EF2 /* HomeViewController.swift */,
+				A4BE741A1C24F4B700277776 /* AppDelegate.swift */,
+				A4BE744A1C250C5000277776 /* SearchClubViewController.swift */,
+				A4BE741E1C24F4B700277776 /* Main.storyboard */,
+				A4BE74211C24F4B700277776 /* Assets.xcassets */,
+				A4BE74231C24F4B700277776 /* LaunchScreen.storyboard */,
+				A4BE74261C24F4B700277776 /* Info.plist */,
+			);
+			path = "Club Hub";
+			sourceTree = "<group>";
+		};
+		A4BE742E1C24F4B700277776 /* Club HubTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4BE742F1C24F4B700277776 /* Club_HubTests.swift */,
+				A4BE74311C24F4B700277776 /* Info.plist */,
+			);
+			path = "Club HubTests";
+			sourceTree = "<group>";
+		};
+		A4BE74391C24F4B700277776 /* Club HubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4BE743A1C24F4B700277776 /* Club_HubUITests.swift */,
+				A4BE743C1C24F4B700277776 /* Info.plist */,
+			);
+			path = "Club HubUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4BE74161C24F4B700277776 /* Club Hub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4BE743F1C24F4B700277776 /* Build configuration list for PBXNativeTarget "Club Hub" */;
+			buildPhases = (
+				A4BE74131C24F4B700277776 /* Sources */,
+				A4BE74141C24F4B700277776 /* Frameworks */,
+				A4BE74151C24F4B700277776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Club Hub";
+			productName = "Club Hub";
+			productReference = A4BE74171C24F4B700277776 /* Club Hub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4BE742A1C24F4B700277776 /* Club HubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4BE74421C24F4B700277776 /* Build configuration list for PBXNativeTarget "Club HubTests" */;
+			buildPhases = (
+				A4BE74271C24F4B700277776 /* Sources */,
+				A4BE74281C24F4B700277776 /* Frameworks */,
+				A4BE74291C24F4B700277776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4BE742D1C24F4B700277776 /* PBXTargetDependency */,
+			);
+			name = "Club HubTests";
+			productName = "Club HubTests";
+			productReference = A4BE742B1C24F4B700277776 /* Club HubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4BE74351C24F4B700277776 /* Club HubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4BE74451C24F4B700277776 /* Build configuration list for PBXNativeTarget "Club HubUITests" */;
+			buildPhases = (
+				A4BE74321C24F4B700277776 /* Sources */,
+				A4BE74331C24F4B700277776 /* Frameworks */,
+				A4BE74341C24F4B700277776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4BE74381C24F4B700277776 /* PBXTargetDependency */,
+			);
+			name = "Club HubUITests";
+			productName = "Club HubUITests";
+			productReference = A4BE74361C24F4B700277776 /* Club HubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4BE740F1C24F4B600277776 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = BlueHammer;
+				TargetAttributes = {
+					A4BE74161C24F4B700277776 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					A4BE742A1C24F4B700277776 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A4BE74161C24F4B700277776;
+					};
+					A4BE74351C24F4B700277776 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A4BE74161C24F4B700277776;
+					};
+				};
+			};
+			buildConfigurationList = A4BE74121C24F4B600277776 /* Build configuration list for PBXProject "Club Hub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4BE740E1C24F4B600277776;
+			productRefGroup = A4BE74181C24F4B700277776 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4BE74161C24F4B700277776 /* Club Hub */,
+				A4BE742A1C24F4B700277776 /* Club HubTests */,
+				A4BE74351C24F4B700277776 /* Club HubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4BE74151C24F4B700277776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4BE74251C24F4B700277776 /* LaunchScreen.storyboard in Resources */,
+				A4BE74221C24F4B700277776 /* Assets.xcassets in Resources */,
+				A4BE74201C24F4B700277776 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4BE74291C24F4B700277776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4BE74341C24F4B700277776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4BE74131C24F4B700277776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A484D3051C3F42F700B37EF2 /* HomeViewController.swift in Sources */,
+				A463728A1C30D84A00E4ABAA /* ClubPageViewController.swift in Sources */,
+				A4BE744B1C250C5000277776 /* SearchClubViewController.swift in Sources */,
+				A4BE741B1C24F4B700277776 /* AppDelegate.swift in Sources */,
+				A463728C1C30D97700E4ABAA /* Club.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4BE74271C24F4B700277776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4BE74301C24F4B700277776 /* Club_HubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4BE74321C24F4B700277776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4BE743B1C24F4B700277776 /* Club_HubUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4BE742D1C24F4B700277776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4BE74161C24F4B700277776 /* Club Hub */;
+			targetProxy = A4BE742C1C24F4B700277776 /* PBXContainerItemProxy */;
+		};
+		A4BE74381C24F4B700277776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4BE74161C24F4B700277776 /* Club Hub */;
+			targetProxy = A4BE74371C24F4B700277776 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4BE741E1C24F4B700277776 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4BE741F1C24F4B700277776 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4BE74231C24F4B700277776 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4BE74241C24F4B700277776 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4BE743D1C24F4B700277776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4BE743E1C24F4B700277776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4BE74401C24F4B700277776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Club Hub/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bluehammer.Club-Hub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4BE74411C24F4B700277776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Club Hub/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bluehammer.Club-Hub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A4BE74431C24F4B700277776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Club HubTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bluehammer.Club-HubTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Club Hub.app/Club Hub";
+			};
+			name = Debug;
+		};
+		A4BE74441C24F4B700277776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Club HubTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bluehammer.Club-HubTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Club Hub.app/Club Hub";
+			};
+			name = Release;
+		};
+		A4BE74461C24F4B700277776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Club HubUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bluehammer.Club-HubUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Club Hub";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A4BE74471C24F4B700277776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Club HubUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bluehammer.Club-HubUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Club Hub";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4BE74121C24F4B600277776 /* Build configuration list for PBXProject "Club Hub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4BE743D1C24F4B700277776 /* Debug */,
+				A4BE743E1C24F4B700277776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4BE743F1C24F4B700277776 /* Build configuration list for PBXNativeTarget "Club Hub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4BE74401C24F4B700277776 /* Debug */,
+				A4BE74411C24F4B700277776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4BE74421C24F4B700277776 /* Build configuration list for PBXNativeTarget "Club HubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4BE74431C24F4B700277776 /* Debug */,
+				A4BE74441C24F4B700277776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4BE74451C24F4B700277776 /* Build configuration list for PBXNativeTarget "Club HubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4BE74461C24F4B700277776 /* Debug */,
+				A4BE74471C24F4B700277776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4BE740F1C24F4B600277776 /* Project object */;
+}
