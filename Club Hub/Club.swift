@@ -7,22 +7,27 @@
 //
 
 import UIKit
+import CoreData
 
-class Club {
+class Club: NSManagedObject {
     
     // MARK: Properties
-    var name: String = ""
-    var logo: UIImage
-    var backgroundImage: UIImage?
+    @NSManaged var name: String
+    @NSManaged var logo: UIImage
+    @NSManaged var backgroundImage: UIImage?
     
     // MARK: Initialization
-    init?(name: String, logo: UIImage, backgroundImage: UIImage?) {
-        self.name = name
-        self.logo = logo
-        self.backgroundImage = backgroundImage
+    convenience init?(name: String, logo: UIImage, backgroundImage: UIImage?) {
         if name.isEmpty {
             return nil
         }
+        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        let context = appDelegate.managedObjectContext
+        let entity = NSEntityDescription.entityForName("Club", inManagedObjectContext: context)
+        self.init(entity: entity!, insertIntoManagedObjectContext: context)
+        self.name = name
+        self.logo = logo
+        self.backgroundImage = backgroundImage
     }
     
 }

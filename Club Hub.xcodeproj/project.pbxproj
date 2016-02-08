@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4315FC21C4D778A0005AD3B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4315FC11C4D778A0005AD3B /* CoreData.framework */; };
+		A4315FC51C4D78C70005AD3B /* ClubHub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4315FC31C4D78C70005AD3B /* ClubHub.xcdatamodeld */; };
+		A43160041C4D91100005AD3B /* ValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43160031C4D91100005AD3B /* ValueTransformer.swift */; };
 		A463728A1C30D84A00E4ABAA /* ClubPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46372891C30D84A00E4ABAA /* ClubPageViewController.swift */; };
 		A463728C1C30D97700E4ABAA /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = A463728B1C30D97700E4ABAA /* Club.swift */; };
 		A484D3051C3F42F700B37EF2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A484D3041C3F42F700B37EF2 /* HomeViewController.swift */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A4315FC11C4D778A0005AD3B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A4315FC41C4D78C70005AD3B /* ClubHub.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClubHub.xcdatamodel; sourceTree = "<group>"; };
+		A43160031C4D91100005AD3B /* ValueTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueTransformer.swift; sourceTree = "<group>"; };
 		A46372891C30D84A00E4ABAA /* ClubPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClubPageViewController.swift; sourceTree = "<group>"; };
 		A463728B1C30D97700E4ABAA /* Club.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Club.swift; sourceTree = "<group>"; };
 		A484D3041C3F42F700B37EF2 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4315FC21C4D778A0005AD3B /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +90,7 @@
 		A4BE740E1C24F4B600277776 = {
 			isa = PBXGroup;
 			children = (
+				A4315FC11C4D778A0005AD3B /* CoreData.framework */,
 				A4BE74191C24F4B700277776 /* Club Hub */,
 				A4BE742E1C24F4B700277776 /* Club HubTests */,
 				A4BE74391C24F4B700277776 /* Club HubUITests */,
@@ -108,10 +116,12 @@
 				A484D3041C3F42F700B37EF2 /* HomeViewController.swift */,
 				A4BE741A1C24F4B700277776 /* AppDelegate.swift */,
 				A4BE744A1C250C5000277776 /* SearchClubViewController.swift */,
+				A43160031C4D91100005AD3B /* ValueTransformer.swift */,
 				A4BE741E1C24F4B700277776 /* Main.storyboard */,
 				A4BE74211C24F4B700277776 /* Assets.xcassets */,
 				A4BE74231C24F4B700277776 /* LaunchScreen.storyboard */,
 				A4BE74261C24F4B700277776 /* Info.plist */,
+				A4315FC31C4D78C70005AD3B /* ClubHub.xcdatamodeld */,
 			);
 			path = "Club Hub";
 			sourceTree = "<group>";
@@ -269,7 +279,9 @@
 				A463728A1C30D84A00E4ABAA /* ClubPageViewController.swift in Sources */,
 				A4BE744B1C250C5000277776 /* SearchClubViewController.swift in Sources */,
 				A4BE741B1C24F4B700277776 /* AppDelegate.swift in Sources */,
+				A43160041C4D91100005AD3B /* ValueTransformer.swift in Sources */,
 				A463728C1C30D97700E4ABAA /* Club.swift in Sources */,
+				A4315FC51C4D78C70005AD3B /* ClubHub.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +529,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A4315FC31C4D78C70005AD3B /* ClubHub.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A4315FC41C4D78C70005AD3B /* ClubHub.xcdatamodel */,
+			);
+			currentVersion = A4315FC41C4D78C70005AD3B /* ClubHub.xcdatamodel */;
+			path = ClubHub.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A4BE740F1C24F4B600277776 /* Project object */;
 }

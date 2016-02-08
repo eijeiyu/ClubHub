@@ -87,6 +87,13 @@ class SearchClubViewController: UIViewController, UIPageViewControllerDataSource
         clubPageViewController?.index = index
         return clubPageViewController
     }
+    
+    // TODO: This is currently test data.
+    private func fetchClubData() {
+        let club1 = Club(name: "ESUC", logo: UIImage(named: "esuc")!, backgroundImage: UIImage(named: "meal1"))
+        let club2 = Club(name: "Backwards ESUC", logo: UIImage(named: "meal1")!, backgroundImage: UIImage(named: "esuc"))
+        clubs = [club1!, club2!]
+    }
 
     // MARK: Navigation
     
@@ -95,6 +102,7 @@ class SearchClubViewController: UIViewController, UIPageViewControllerDataSource
         if identifier == "embeddedPageViewSegue" {
             if let pageViewController = segue.destinationViewController as? UIPageViewController {
                 pageViewController.dataSource = self
+                fetchClubData()
                 pageViewController.setViewControllers([createClubPageViewController(0)!], direction: .Forward, animated: true, completion: { (finished) -> Void in
                     // TODO: Update the about, events, and contacts tabs corresponding to the current club
                 })

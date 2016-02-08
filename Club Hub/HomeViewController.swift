@@ -26,16 +26,16 @@ class HomeViewController: UITabBarController, UITabBarControllerDelegate {
     
     // MARK: UITabBarControllerDelegate
     
-    func tabBarController(tabBarController: UITabBarController, shouldSelectViewController viewController: UIViewController) -> Bool {
-        if let searchClubViewController = viewController as? SearchClubViewController {
-            // TODO: Remove this test data.
-            let club1 = Club(name: "ESUC", logo: UIImage(named: "esuc")!, backgroundImage: UIImage(named: "meal1"))
-            let club2 = Club(name: "Backwards ESUC", logo: UIImage(named: "meal1")!, backgroundImage: UIImage(named: "esuc"))
-            searchClubViewController.clubs = [club1!, club2!]
-            return true
-        }
-        return false
-    }
+    // TODO: May not need a custom tab bar controller. Use NSUserDefaults.
+//    func tabBarController(tabBarController: UITabBarController, shouldSelectViewController viewController: UIViewController) -> Bool {
+//        if let searchClubViewController = viewController as? SearchClubViewController {
+//            let club1 = Club(name: "ESUC", logo: UIImage(named: "esuc")!, backgroundImage: UIImage(named: "meal1"))
+//            let club2 = Club(name: "Backwards ESUC", logo: UIImage(named: "meal1")!, backgroundImage: UIImage(named: "esuc"))
+//            searchClubViewController.clubs = [club1!, club2!]
+//            return true
+//        }
+//        return false
+//    }
 
     /*
     // MARK: - Navigation
